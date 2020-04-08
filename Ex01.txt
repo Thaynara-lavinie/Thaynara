@@ -1,0 +1,21 @@
+package listas01;
+import java.util.Scanner;
+public class e01 {
+
+    public static void main(String[] args) {
+    float valorA;
+    float valorB;
+    
+    Scanner scan = new Scanner(System.in);
+ 
+    System.out.println("Digite valor A:");
+    valorA = scan.nextFloat();
+    
+    System.out.println("Digite valor B:");
+    valorB = scan.nextFloat();
+    
+    float result = valorA+valorB;
+    System.out.println("Resultado:"+result);
+    }
+    
+}

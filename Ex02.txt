@@ -1,0 +1,27 @@
+package listas01;
+import java.util.Scanner;
+public class e01 {
+
+    public static void main(String[] args) {
+    int anos;
+    int messes;
+    int dias;
+    int idade;
+    
+    Scanner scan = new Scanner(System.in);
+ 
+    System.out.println("Digite a idades convertida em dias:");
+    idade= scan.nextFloat();
+    
+    dias = (idade/365)30
+    ano = idade / 365;
+    messes = (idade/365)/30
+    
+   
+System.out.println("Resultado:"+dias);
+System.out.println("Resultado:"+ano);
+System.out.println("Resultado:"+messes);
+
+    }
+    
+}
