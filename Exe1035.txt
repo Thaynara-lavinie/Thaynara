@@ -1,0 +1,33 @@
+
+package listas01;
+import java.util.Scanner;
+public class Exe1035 {
+
+    public static void main(String[] args) {
+    int valorA;
+    int valorB;
+    int valorC;
+    int valorD;
+    Scanner scan = new Scanner(System.in);
+    
+    System.out.println("Digite valor A:");
+    valorA = scan.nextInt();
+    
+    System.out.println("Digite valor B:");
+    valorB = scan.nextInt();
+    
+    System.out.println("Digite valor C:");
+    valorC = scan.nextInt();
+    
+    System.out.println("Digite valor D:");
+    valorD = scan.nextInt();
+    
+    if(valorB>valorC && valorD>valorA){
+    }else if((valorC+valorD)>(valorA+valorB)){
+    }else if(valorA == (valorA % 2)){
+        System.out.println("Valores Aceitos");
+    }else{
+        System.out.println("Valores nao Aceitos");
+    }
+  }
+}
